@@ -1,0 +1,144 @@
+
+/***Tablet Layout***/
+
+@media only screen and (min-width:200px) and (max-width: 991px){
+  
+  .inner_menu{
+    background: none;
+  }
+  .inner_menu::after{
+    display: none;
+    min-height: auto;
+  }
+  .mean-container .mean-nav {
+    margin-top: 0;
+    width: 80%;
+  }
+  .inner_header{
+    padding: 10px 0;
+  }
+  .inner_header .social_area{
+    margin-top: 0;
+  }
+  #slider_area .container{
+    margin-top: 0;
+  }
+  .inner_hero h2{
+    font-size: 70px;
+    margin-bottom: 5px;
+  }
+  #work_area{
+    padding: 20px 0;
+  }
+  .About_area img{
+    width: 94%;
+  }
+  .child_services .services_text p{
+    line-height: 1em;
+  }
+  .child_services{
+    margin-top: 10px;
+  }
+}
+
+
+/***mobail Layout***/
+@media only screen and (min-width:200px) and (max-width: 480px){
+
+  #top_header_area{
+    padding-top: 5px;
+  }
+  .mini_menu{
+    float: none;
+    width: 100%;
+  }
+  .mini_menu ul{
+    text-align: center;
+  }
+  .search_area{
+    margin-top: 10px;
+    float: right;
+    width: 60%;
+  }
+  .search_area input{
+    width: 60%;
+    margin-left: 8px;
+  }
+  .search_area input[type="submit"]{
+    width: 30%;
+  }
+  .inner_header{
+    padding: 0 0;
+    padding-top: 15px;
+  }
+  .logo_area{
+    width: 150px;
+  }
+  .social_area{
+    margin-top: 0px;
+    float: right;
+    max-width: 200px;
+    width: 100%;
+  }
+  .social_area ul li{
+    margin-left: 5px;
+  }
+  .social_area ul li a i{
+    width: 27px;
+    padding-top: 3px;
+    height: 23px;
+  }
+  .inner_hero img{
+    width: 100%;
+  }
+  .inner_hero h2{
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  #slider_area .container{
+    margin-top: 0px;
+    width: 100%;
+  }
+  .child_work{
+    width: 100%;
+    float: none;
+    padding-top: 15px;
+  }
+  .child_work:first-child{
+    padding-top: 0px;
+  }
+  .child_services .services_img{
+    width: 15%;
+    padding-right: 15px;
+  }
+  .child_services .services_text{
+    width: 90%;
+    float: none;
+  }
+  .child_footer{
+    width: 100%;
+    float: none;
+  }
+  .child_footer h3{
+    border-top: 0px solid;
+
+  }
+  .child_footer ul li:last-child{
+    border-bottom: 1px solid #666666;
+  }
+  .child_footer input{
+    padding: 2%;
+    margin-bottom: 15px;
+    width: 70%;
+  }
+  .child_footer textarea{
+    padding: 10px 10% 57px;
+    width: 54%;
+  }
+  .child_footer input[type="submit"]{
+    width: 100px;
+  }
+
+
+
+}
